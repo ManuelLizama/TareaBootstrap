@@ -10,6 +10,44 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <style >
+      
+      #footer{
+        padding: 10px; 
+        border-left-style: solid; 
+        border-left-color: grey;
+        background: black; 
+        color: white; 
+        text-align: center;
+      }
+      #well{
+        margin-top: 10px; 
+        height: 300px; 
+        width: 100%; 
+        border-style: solid;
+        border-color: rgb(205,205,205); 
+        border-width: 3px;
+      }
+      #header{
+        border-bottom-style: solid;
+        border-bottom-color: black; 
+        padding: 20px ; 
+        border-bottom-width: 30px; 
+        background: rgb(68,68,68); 
+        color: white;
+      }
+      .img-thumbnail{
+        width: 140px; 
+        border-width: 3px; 
+        height: 140px; 
+        margin: 10px; 
+        border-style: solid; 
+        border-color: rgb(180,180,180); 
+        border-radius: 5%; 
+        background: rgb(205,205,205);
+      }
+    </style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,7 +59,7 @@
     <div class="container">
 
       <div class="row">
-          <div class="col-lg-12 col-md-12" style="border-bottom-style: solid;border-bottom-color: black; padding: 20px ; border-bottom-width: 30px; background: rgb(68,68,68); color: white;">
+          <div id="header" class="col-lg-12 col-md-12">
             <h1>Desarrollo Web</h1>
           </div>
       </div>
@@ -29,8 +67,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <div class="row">
-            <div class="well" style="margin-top: 10px; height: 300px; width: 100%; border-style: solid;
-            border-color: rgb(205,205,205); border-width: 3px; ;"></div>
+            <div id="well" class="well"></div>
           </div>
           <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-6">
@@ -74,36 +111,38 @@
           
           
           <div class="row">
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-          </div> 
-          <div class="row">
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
-            <div class="col-md-6 col-lg-6 " style=" width: 140px; border-width: 3px; height: 140px; margin: 10px; border-style: solid; border-color: rgb(180,180,180); border-radius: 5%; background: rgb(205,205,205);">
+            <div class="col-md-6 col-lg-6 ">
+              <img class="img-thumbnail" src="http://placehold.it/150x150">
             </div>
+            
           </div>          
           
 
         </div>
       </div>
       <footer class="row">
-        <div class="col-lg-12 col-md-12" style="padding: 10px; border-left-style: solid; border-left-color: grey;
-        background: black; color: white; text-align: center;">
+        <div id="footer" class="col-lg-12 col-md-12">
           <p>Todos los derechos reservados</p>
           </div>
       </footer> 
